@@ -1,5 +1,5 @@
 from django.db import models
-from .utils import encode_base62
+from shortener.utils import encode_base62
 
 class URLMapping(models.Model):
     original_url = models.URLField(max_length=2048)

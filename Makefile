@@ -6,7 +6,7 @@ run:
 
 # Run all tests
 test:
-	python manage.py test shortener
+	python manage.py test shortener/tests
 
 # Apply database migrations
 migrate:

@@ -1,0 +1,2 @@
+from .tests_redirection import URLRedirectionTests
+from .tests_url_creation import URLCreationTests
